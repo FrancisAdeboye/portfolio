@@ -276,7 +276,7 @@
   }
   .body-4 {
     width: 1440px;
-    height: 1050px;
+    height: 1090px;
   }
   .heading-4 {
     color: black;
@@ -299,7 +299,7 @@
     margin-bottom: 30px;
   }
   .swiper {
-    width: 80%;
+    width: 70%;
     height: fit-content;
     display: flex;
     margin: auto;
@@ -307,7 +307,6 @@
     text-align: center;
     justify-content: center;
     position: relative;
-    border-style: solid;
     background-color: white;
   }
   .swiper-slide {
@@ -337,9 +336,62 @@
   .swiper-button-next {
     right: 0
   }
-  .swiper-pagination {
+  .swiper-description {
     position: absolute;
-    margin-top: 1400px;
+    top: 630px;
+  }
+  .swiper-description h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .swiper-description p {
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 98px;
+  }
+  .languages {
+    display: flex;
+    justify-content: center;
+  }
+  .html {
+    background-color: hsl(224, 20%, 63%);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    padding: 7px;
+    margin-right: 10px;
+  }
+  .css {
+    background-color: hsl(225, 83%, 65%);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    margin-right: 10px;
+  }
+  .swiper-description button {
+    color: white;
+    background-color: rgb(36, 35, 35);
+    border-style: solid;
+    border-color: white;
+    border-radius: 6rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  .swiper-description button:hover {
+    background-color: hsl(224, 20%, 63%);
+    color: white;
+    cursor: pointer;
+  }
+  .swiper-description a {
+    text-decoration: none;
+    color: white;
   }
   .dot {
     color: hsl(224, 20%, 63%);
@@ -351,7 +403,7 @@
   }
   .body-5 {
     width: 1440px;
-    height: 760px;    
+    height: 720px;    
   }
   .heading-5 h2 {
     color: white;
