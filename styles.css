@@ -278,7 +278,7 @@
   }
   .body-4 {
     width: 1440px;
-    height: 1090px;
+    height: 1110px;
   }
   .heading-4 {
     text-align: center;
@@ -287,7 +287,7 @@
     color: white;
     font-size: 60px;
     margin-bottom: 0px;
-    margin-top: 60px;
+    margin-top: 70px;
   }
   .heading-4 p {
     color: rgb(240, 97, 1);
@@ -394,17 +394,9 @@
     text-decoration: none;
     color: white;
   }
-  .dot {
-    color: hsl(224, 20%, 63%);
-    font-size: 20px;
-  }
-  .dot:hover {
-    opacity: 0.5;
-    zoom: 150%;
-  }
   .body-5 {
     width: 1440px;
-    height: 720px;    
+    height: 700px;    
   }
   .heading-5 h2 {
     color: white;
@@ -572,14 +564,14 @@
     max-height: 100%;
   }
   .container {
-    background-color: black;
+    background-color: hsl(192, 100%, 9%);
     width: 375px;
-    height: 5150px;
+    height: 5380px;
     margin: auto;
   }
   .header {
     border-style: solid;
-    width: 100%;
+    width: 375px;
     height: 100px;
     display: flex;
     align-items: center;
@@ -651,6 +643,7 @@
     background-image: white;
     border-radius: 10px;
     border-style: none;
+    background-image: linear-gradient(to right, rgb(240, 97, 1),rgb(133, 133, 11));
     padding: 8px 12px;
     margin-right: 0px;
     transition: width 3s, height 3s;
@@ -678,11 +671,12 @@
     text-align: center;
   }
   .text-side h4 {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 28px;
     margin-bottom: 0;
     margin-top: 0;
+    text-align: center;
   }
   .text-side h2 {
     color: white;
@@ -702,7 +696,7 @@
     border-style: none;
     border-radius: 10px;
     color: white;
-    background-color: hsl(225, 81%, 46%);
+    background-image: linear-gradient(to right, rgb(240, 97, 1),rgb(133, 133, 11));
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     padding: 10px 30px;
@@ -745,7 +739,7 @@
     margin-top: 0;
   }
   .text-side-2 h4 {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-size: 24px;
     margin-bottom: 60px;
     margin-top: 0;
@@ -775,7 +769,7 @@
     margin-top: 60px;
   }
   .heading-3 p {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -856,10 +850,9 @@
   }
   .body-4 {
     width: 375px;
-    height: 500px;
+    height: 700px;
   }
   .heading-4 {
-    color: black;
     text-align: center;
   }
   .heading-4 h2 {
@@ -869,7 +862,7 @@
     margin-top: 60px;
   }
   .heading-4 p {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -887,8 +880,6 @@
     text-align: center;
     justify-content: center;
     position: relative;
-    border-style: solid;
-    background-color: white;
   }
   .swiper-slide {
     width: 100%;
@@ -917,24 +908,71 @@
   .swiper-button-next {
     right: 0
   }
-  .swiper-pagination {
+  .swiper-description {
     position: absolute;
-    margin-top: 405px;
+    top: 210px;
   }
-  .dot {
-    color: hsl(225, 81%, 46%);
-    font-size: 5px;
+  .swiper-description h3 {
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
-  .dot:hover {
-    opacity: 0.5;
-    zoom: 150%;
+  .swiper-description p {
+    color: white;
+    font-size: 15px;
+    width: 95%;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  .languages {
+    display: flex;
+    justify-content: center;
+  }
+  .html {
+    background-color: hsl(224, 20%, 63%);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    padding: 7px;
+    margin-right: 10px;
+  }
+  .css {
+    background-color: hsl(225, 83%, 65%);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    margin-right: 10px;
+  }
+  .swiper-description button {
+    color: white;
+    background-color: rgb(133, 133, 11);
+    border-style: solid;
+    border-color: white;
+    border-radius: 6rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  .swiper-description button:hover {
+    background-color: hsl(224, 20%, 63%);
+    color: white;
+    cursor: pointer;
+  }
+  .swiper-description a {
+    text-decoration: none;
+    color: white;
   }
   .body-5 {
     width: 375px;
     height: 950px;    
   }
   .heading-5 {
-    color: black;
     text-align: center;
   }
   .heading-5 h2 {
@@ -944,7 +982,7 @@
     margin-top: 60px;
   }
   .text-5 {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -1012,7 +1050,7 @@
     width: 250px;
     height: 50px;
     font-size: 20px;
-    background-color: hsl(225, 81%, 46%);
+    background-color: rgb(240, 97, 1);
     border-style: none;
     color: white;
     margin: auto;
@@ -1045,7 +1083,7 @@
   }
   .contact-sheet a {
     font-size: 16px;
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     text-decoration: none;
   }
   .contact-sheet p {
@@ -1076,6 +1114,5 @@
     color: white;
     font-size: 18px;
     width: 320px;
-
   }
 }
