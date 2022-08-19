@@ -15,7 +15,7 @@
     max-height: 100%;
   }
   .container {
-    background-color: black;
+    background-color: hsl(192, 100%, 9%);
     width: 1440px;
     height: 4480px;
     margin: auto;
@@ -44,9 +44,9 @@
     margin-right: 70px;
     margin-left: 20px;
   }
-  .button {
+  .active, .button {
     border-style: none;
-    background-color: black;
+    background-color: transparent;
     color: white;
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
@@ -59,7 +59,11 @@
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
-    text-decoration-color: hsl(225, 81%, 46%);
+    text-decoration-color: rgb(133, 133, 11);
+  }
+  .page-nav:active {
+    text-decoration: underline;
+    text-decoration-color: rgb(133, 133, 11);
   }
   .page-navs {
     color: white;
@@ -67,12 +71,11 @@
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
-    text-decoration-color: hsl(225, 81%, 46%);
   }
   .button:hover {
     cursor: pointer;
     text-decoration: underline;
-    text-decoration-color: hsl(225, 81%, 46%);
+    text-decoration-color: rgb(133, 133, 11);
     text-decoration-style: solid;
     text-decoration-thickness: 5px;
     padding: 20px;
@@ -81,7 +84,7 @@
     border-style: none;
     border-radius: 10px;
     color: white;
-    background-color: black;
+    background-image: linear-gradient(to right, rgb(240, 97, 1),rgb(133, 133, 11));
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
@@ -91,7 +94,6 @@
   .contact-now:hover {
     cursor: pointer;
     color: white;
-    background-color: hsl(225, 81%, 46%);
     width: 160px;
     height: 50px;
   }
@@ -104,7 +106,7 @@
     left: 750px;
   }
   .text-side h4 {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 40px;
     margin-bottom: 0;
@@ -128,7 +130,7 @@
     border-style: none;
     border-radius: 10px;
     color: white;
-    background-color: hsl(225, 81%, 46%);
+    background-image: linear-gradient(to left, rgb(240, 97, 1),rgb(133, 133, 11));
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     padding: 10px 30px;
@@ -170,7 +172,7 @@
     margin-top: 0;
   }
   .text-side-2 h4 {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-size: 28px;
     margin-bottom: 60px;
     margin-top: 0;
@@ -200,7 +202,7 @@
     margin-top: 60px;
   }
   .heading-3 p {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
     line-height: 1.8;
@@ -279,7 +281,6 @@
     height: 1090px;
   }
   .heading-4 {
-    color: black;
     text-align: center;
   }
   .heading-4 h2 {
@@ -289,7 +290,7 @@
     margin-top: 60px;
   }
   .heading-4 p {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
     line-height: 1.8;
@@ -323,7 +324,7 @@
     color: hsl(224, 20%, 63%);
     cursor: pointer;
     position: absolute;
-    top: 300px;
+    top: 240px;
     margin: auto;
     font-size: 100px;
   }
@@ -373,7 +374,7 @@
   }
   .swiper-description button {
     color: white;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(133, 133, 11);
     border-style: solid;
     border-color: white;
     border-radius: 6rem;
@@ -412,11 +413,10 @@
     margin-top: 60px;
   }
   .heading-5 {
-    color: black;
     text-align: center;
   }
   .text-5 {
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
     line-height: 1.8;
@@ -481,7 +481,7 @@
     width: 400px;
     height: 50px;
     font-size: 20px;
-    background-color: hsl(225, 81%, 46%);
+    background-color: rgb(240, 97, 1);
     border-style: none;
     color: white;
     margin: auto;
@@ -510,8 +510,11 @@
   }
   .contact-sheet a {
     font-size: 18px;
-    color: hsl(225, 81%, 46%);
+    color: rgb(240, 97, 1);
     text-decoration: none;
+  }
+  .contact-sheet a:hover {
+    color: hsl(192, 100%, 9%)
   }
   .contact-sheet p {
     font-size: 18px;
