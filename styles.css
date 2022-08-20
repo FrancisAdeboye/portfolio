@@ -392,7 +392,7 @@
     background-color: rgb(133, 133, 11);
     border-style: solid;
     border-color: white;
-    border-radius: 6rem;
+    border-radius: 0.8rem;
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -498,7 +498,7 @@
     border-radius: 1rem;
   }
   .submit:hover {
-    opacity: 0.6;
+    background-color: hsl(192, 100%, 9%);
     cursor: pointer;
   }
   .contact-sheet {
@@ -960,12 +960,12 @@
     background-color: rgb(133, 133, 11);
     border-style: solid;
     border-color: white;
-    border-radius: 6rem;
+    border-radius: 0.8rem;
     font-family: 'Public Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     padding: 10px;
-    width: 150px;
+    width: 110px;
     margin-top: 15px;
   }
   .swiper-description button:hover {
