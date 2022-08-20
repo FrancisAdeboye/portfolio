@@ -387,7 +387,15 @@
     padding: 7px;
     margin-right: 10px;
   }
-  .swiper-description button {
+  .js {
+    background-color: rgb(196, 196, 9);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    padding-left: 16px;
+    margin-right: 10px;
+  }
+  .project {
     color: white;
     background-color: rgb(133, 133, 11);
     border-style: solid;
@@ -399,6 +407,7 @@
     padding: 10px;
     width: 150px;
     margin-top: 15px;
+    margin-right: 5px;
   }
   .swiper-description button:hover {
     background-color: hsl(224, 20%, 63%);
@@ -408,6 +417,19 @@
   .swiper-description a {
     text-decoration: none;
     color: white;
+  }
+  .github {
+    color: rgb(133, 133, 11);
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(133, 133, 11);
+    border-radius: 0.8rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    margin-top: 15px;
   }
   .body-5 {
     width: 1440px;
@@ -670,7 +692,7 @@
     background-size: 1600px 760px;
     background-position: center left -80px;
     width: 375px;
-    height: 1200px;
+    height: 1120px;
     position: relative;
   }
   .text-side {
@@ -766,7 +788,7 @@
   }
   .body-3 {
     width: 375px;
-    height: 1000px;
+    height: 1020px;
   }
   .heading-3 {
     color: white;
@@ -859,7 +881,7 @@
   }
   .body-4 {
     width: 375px;
-    height: 700px;
+    height: 760px;
   }
   .heading-4 {
     text-align: center;
@@ -955,11 +977,33 @@
     padding: 7px;
     margin-right: 10px;
   }
-  .swiper-description button {
+  .js {
+    background-color: rgb(196, 196, 9);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    padding-left: 16px;
+    margin-right: 10px;
+  }
+  .project {
     color: white;
     background-color: rgb(133, 133, 11);
     border-style: solid;
     border-color: white;
+    border-radius: 0.8rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    width: 110px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .github {
+    color: rgb(133, 133, 11);
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(133, 133, 11);
     border-radius: 0.8rem;
     font-family: 'Public Sans', sans-serif;
     font-size: 14px;
