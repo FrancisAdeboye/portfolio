@@ -591,13 +591,13 @@
     height: 270px;
     padding: 30px 10px;
     position: fixed;
-    left: 320px;
+    left: 150px;
     top: -100%;
     gap: 35px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    transition: 0.3s;
+    transition: 2s;
   }
   .right-section.active {
     top: 53px;
