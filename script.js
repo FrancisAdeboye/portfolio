@@ -1,3 +1,16 @@
+const hamburger = document.querySelector(".hamburger");
+const rightSection = document.querySelector(".right-section");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  rightSection.classList.toggle("active");
+})
+document.querySelectorAll(".page-nav").forEach(n => n.
+  addEventListener("click", () => {
+    hamburger.classList.remove("active")
+    rightSection.classList.remove("active")
+  }))
+
 var typed = new Typed(".auto-input", {
   strings: ["", "I'm a Web"],
   typeSpeed: 300,
