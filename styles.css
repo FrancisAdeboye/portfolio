@@ -609,11 +609,11 @@
   }
   .right-section {
     background-color: hsl(224, 20%, 63%);
-    width: 150px;
+    width: 310px;
     height: 270px;
     padding: 30px 10px;
     position: fixed;
-    left: 150px;
+    left: 30px;
     top: -100%;
     gap: 35px;
     display: flex;
@@ -622,22 +622,21 @@
     transition: 2s;
   }
   .right-section.active {
-    top: 53px;
+    top: 60px;
   }
   .button {
     display: flex;
     border-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     color: white;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    margin-left: 20px;
   }
   .page-nav {
     color: white;
     font-family: 'Public Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
@@ -666,7 +665,7 @@
     padding: 5px 10px;
     border-radius: 5px;
     display: block;
-    margin-right: 40px;
+    margin-right: 20px;
   }
   .bar {
     display: block;
@@ -1165,7 +1164,8 @@
   }
   .left-side p {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     width: 320px;
+    letter-spacing: 1.4px;
   }
 }
