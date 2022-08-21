@@ -619,7 +619,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    transition: 3s;
+    transition: 2s;
   }
   .right-section.active {
     top: 60px;
