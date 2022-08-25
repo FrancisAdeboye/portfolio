@@ -21,7 +21,7 @@
     margin: auto;
   }
   .body-1 {
-    background-image: url("images/Francis\ A\ pic.png");
+    background-image: url("images/Francis_A_pic_1_optimized.png");
     background-repeat: no-repeat;
     background-size: 670px 850px;
     background-position: top -100px left 60px;
@@ -690,7 +690,7 @@
     transform: translateY(-8px) rotate(-45deg); 
   }
   .body-1 {
-    background-image: url("images/Francis\ A\ pic.png");
+    background-image: url("images/Francis_A_pic_1_optimized.png");
     background-repeat: no-repeat;
     background-size: 450px 580px;
     background-position: top -15px center;
