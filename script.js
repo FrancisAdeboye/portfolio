@@ -1,9 +1,33 @@
 const hamburger = document.querySelector(".hamburger");
-const rightSection = document.querySelector(".middle-section");
+const rightSection = document.querySelector(".right-section");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   rightSection.classList.toggle("active");
+})
+document.querySelectorAll(".page-nav").forEach(n => n.
+  addEventListener("click", () => {
+    hamburger.classList.remove("active")
+    rightSection.classList.remove("active")
+  }))
+
+var typed = new Typed(".auto-input", {
+  strings: ["", "I'm a Web"],
+  typeSpeed: 300,
+  backSpeed: 200,
+  loop: true,
+})
+var autoTyped = new Typed(".auto-input-2", {
+  strings: ["", "Frontend Web Developer"],
+  typeSpeed: 300,
+  backSpeed: 100,
+  loop: true,
+})
+var autoTyped2 = new Typed(".auto-input-3", {
+  strings: ["", "I will help you reach your goal by providing help building your new platform in a timely manner."],
+  typeSpeed: 100,
+  backSpeed: 50,
+  loop: true,
 })
 
 
@@ -12,11 +36,7 @@ showSlides();
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
-}
-
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slideIndex -= n);
 }
 
 function showSlides() {
@@ -28,5 +48,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000)
+  setTimeout(showSlides, 5000);
 }
