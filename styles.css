@@ -907,7 +907,7 @@
   }
   .swiper {
     width: 90%;
-    height: fit-content;
+    height: auto;
     display: flex;
     margin: auto;
     align-items: center;
@@ -917,13 +917,13 @@
   }
   .swiper-slide {
     width: 100%;
-    height: fit-content;
+    height: auto;
     position: absolute;
     top: 0;
   }
   .swiper-slide img {
     width: 100%;
-    height: fit-content;
+    height: auto;
   }
   .swiper-button-prev, .swiper-button-next {
     color: hsl(224, 20%, 63%);
