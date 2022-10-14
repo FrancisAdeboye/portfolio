@@ -399,6 +399,26 @@
     padding-left: 16px;
     margin-right: 10px;
   }
+  .jquery {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+  .react {
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(225, 83%, 65%);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
   .project {
     color: white;
     background-color: rgb(133, 133, 11);
@@ -986,6 +1006,26 @@
     color: white;
     padding: 7px;
     padding-left: 16px;
+    margin-right: 10px;
+  }
+  .jquery {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+  .react {
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(225, 83%, 65%);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 10px;
     margin-right: 10px;
   }
   .project {
