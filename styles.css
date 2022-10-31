@@ -261,7 +261,7 @@
     width: 25px;
   }
   .logo img {
-    margin-bottom: 21.5px;
+    margin-bottom: 24px;
   }
   .label {
     font-size: 26px;
@@ -272,7 +272,7 @@
   }
   .label label {
     margin-left: 10px;
-    margin-bottom: 16px;
+    margin-bottom: 17px;
   }
   .soft-skills {
     color: white;
@@ -410,6 +410,16 @@
     margin-right: 10px;
   }
   .react {
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(225, 83%, 65%);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+  .Express-js {
     background-color: white;
     border-radius: 5px;
     color: hsl(225, 83%, 65%);
@@ -820,7 +830,7 @@
   .heading-3 h2 {
     font-size: 45px;
     margin-bottom: 10px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .heading-3 p {
     color: rgb(240, 97, 1);
@@ -846,7 +856,7 @@
     font-weight: 600;
     letter-spacing: 5px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
   }
   .hard-skills ul {
@@ -870,7 +880,7 @@
   .label {
     font-size: 20px;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -889,7 +899,7 @@
     font-weight: 600;
     letter-spacing: 5px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 0;
   }
   .soft-skills li {
@@ -1019,6 +1029,16 @@
     margin-right: 10px;
   }
   .react {
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(225, 83%, 65%);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+  .Express-js {
     background-color: white;
     border-radius: 5px;
     color: hsl(225, 83%, 65%);
